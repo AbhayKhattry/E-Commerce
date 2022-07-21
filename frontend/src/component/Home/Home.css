@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../images/ax.webp");
+    background-image: url("https://wallpaperaccess.com/full/2489629.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,12 +14,11 @@
   
   .banner > h1 {
     margin: 5vmax;
-  
     font: 600 2.5vmax "Roboto";
   }
   
   .banner > p {
-    font: 300 1.4vmax "Lucida Sans";
+    font: 300 2.0vmax "Lucida Sans";
   }
   
   .banner > a > button {
@@ -53,7 +52,7 @@
   .homeHeading {
     text-align: center;
     font-family: Roboto;
-    font-size: 1.4vmax;
+    font-size: 1.8vmax;
     border-bottom: 1px solid rgba(21, 21, 21, 0.5);
     width: 20vmax;
     padding: 1vmax;
@@ -94,12 +93,12 @@
   
   .productCardSpan {
     margin: 0.5vmax;
-    font: 300 0.7vmax "Roboto";
+    font: "Roboto";
   }
   
   .productCard > p {
     font-family: "Roboto";
-    font-size: 1.2vmax;
+    font-size: 1.6vmax;
     margin: 1vmax 0.5vmax;
     margin-bottom: 0;
   }
@@ -108,7 +107,7 @@
     margin: 0.5vmax;
     color: tomato;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 1vmax;
+    font-size: 1.4vmax;
   }
   
   .productCard:hover {

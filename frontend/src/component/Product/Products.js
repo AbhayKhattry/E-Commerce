@@ -11,13 +11,13 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
-  "Laptop",
+  "Laptops",
   "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "Watches",
+  "Shirts",
+  "Jeans",
+  "Cameras",
+  "Smartphones",
 ];
 
 const Products = ({ match }) => {
@@ -26,7 +26,7 @@ const Products = ({ match }) => {
   const alert = useAlert();
 
   const [currentPage, setCurrentPage] = useState(1);
-  const [price, setPrice] = useState([0, 25000]);
+  const [price, setPrice] = useState([0, 75000]);
   const [category, setCategory] = useState("");
 
   const [ratings, setRatings] = useState(0);
@@ -84,7 +84,7 @@ const Products = ({ match }) => {
               valueLabelDisplay="auto"
               aria-labelledby="range-slider"
               min={0}
-              max={25000}
+              max={75000}
             />
 
             <Typography>Categories</Typography>
@@ -99,8 +99,6 @@ const Products = ({ match }) => {
                 </li>
               ))}
             </ul>
-
-            <fieldset>
               <Typography component="legend">Ratings Above</Typography>
               <Slider
                 value={ratings}
@@ -112,7 +110,6 @@ const Products = ({ match }) => {
                 min={0}
                 max={5}
               />
-            </fieldset>
           </div>
           {resultPerPage < count && (
             <div className="paginationBox">
